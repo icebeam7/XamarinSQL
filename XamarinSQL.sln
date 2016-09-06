@@ -18,6 +18,11 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{615b8315-7ffc-4113-b280-72916a5f16d2}*SharedItemsImports = 13
+		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{6bfaead5-2638-427e-bdc3-6c1a93d6f872}*SharedItemsImports = 4
+		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{80850e61-d70d-49db-b1d7-10e2c6344274}*SharedItemsImports = 4
+		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{ad11d2e1-141d-4791-b9bc-16768011d3c9}*SharedItemsImports = 4
+		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{ccf36b1a-8bff-44dd-8149-9049b95ce6de}*SharedItemsImports = 4
+		XamarinSQL\XamarinSQL\XamarinSQL.projitems*{e6d40fd2-3fb2-46a2-9a1c-7b5f058c00d6}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

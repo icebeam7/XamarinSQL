@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinSQL.Paginas.PaginaEmpleado">
+  <ContentPage.Content>
+    <StackLayout Spacing="20" Padding="20">
+      <Entry x:Name="txtNombre" Text="{Binding Nombre, Mode=TwoWay}" Placeholder="Nombre" />
+      <Entry x:Name="txtSalario" Text="{Binding Salario, Mode=TwoWay}" Placeholder="Salario" Keyboard="Numeric" />
+    </StackLayout>
+  </ContentPage.Content>
+
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="btnGuardar" Text="Guardar" Priority="0" Clicked="btnGuardar_Click" Order="Primary" Icon="guardar.png"/>
+    <ToolbarItem x:Name="btnEliminar" Text="Eliminar" Priority="1" Clicked="btnEliminar_Click" Order="Primary" Icon="eliminar.png"/>
+  </ContentPage.ToolbarItems>
+
+</ContentPage>
